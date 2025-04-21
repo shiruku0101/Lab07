@@ -30,7 +30,7 @@ ostream & operator<<(ostream & out, Cylinder & cldr)
     out<<fixed<<setprecision(3);
     out<<"Circumference: "<<cldr.Circumference()<<endl;
     out<<"SurfaceArea: "<<cldr.SurfaceArea()<<endl;
-    out<<"Volume: "<<cldr.Volume();   
+    out<<"Volume: "<<cldr.Volume()<<endl;   
     return out;
 }
 
